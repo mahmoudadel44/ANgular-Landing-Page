@@ -1,0 +1,37 @@
+.citiesAds {
+  background-color: #f6f6f6;
+  height: auto;
+  flex-direction: column;
+  margin-top: 750px;
+}
+.citiesAds .title {
+  font-size: 42px;
+  padding-top: 60px;
+  text-align: center;
+}
+.citiesAds .title .featuredText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.citiesAds .title .featuredText .adsText {
+  color: #1e90ff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.citiesAds .separateContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 85px;
+  height: 2px;
+  color: #1e90ff;
+  background: #1e90ff;
+  margin: auto;
+  margin-top: 30px;
+}
+.citiesAds .desc {
+  margin: 25px 150px;
+  font-size: 17px;
+}

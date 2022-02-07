@@ -1,0 +1,66 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.postBtn{
+    background-color: #b88d0e;
+  margin-right: 20px ;
+}
+.registerBtn{
+      background-color: #6c757d;
+}
+.buyBtn{
+      background-color: #17a2b8;
+
+}
+mat-sidenav{
+  width: 200px;
+  height: 100vh;
+  background-color: #EEE;
+}
+mat-sidenav-content{
+    width: 100%;
+  height: 91vh;
+  background: #f6f6f6;
+
+}
+.activeLink{
+  background-color: rgb(15, 133, 15);
+}
+.canelContainer{
+   color: red;
+   margin-top: 6px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2px;
+    cursor: pointer;
+
+}
+.linkContainer{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 8px 30px;
+}
+.linkContainer:hover{
+  background-color: #DDD;
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.1);
+}
+.linkContainer .space{
+  margin-left: 30px;
+}
+.linkContainer i{
+color: #3f51b5;
+}
+
+
+
+
+
+
+
+
+
+
+

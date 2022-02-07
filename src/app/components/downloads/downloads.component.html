@@ -1,0 +1,29 @@
+<section class="downloadsContainer py-5">
+  <div class="container">
+    <div class="title animate__animated animate__fadeInDown">
+      <span class="featuredText">Download Our App</span>
+    </div>
+    <div class="separateContainer animate__animated animate__fadeInDown">
+      <hr />
+    </div>
+    <h1 class="text-center my-4">A world market in your hand</h1>
+    <p class="desc text-center animate__animated animate__fadeInDown">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+      iusto repellendus. Quis, fugiat provident ea consequatur accusamus
+      sapiente blanditiis aliquam fugit laborum, iste culpa officiis nulla,
+      quasi rerum sit voluptatem.
+    </p>
+    <div class="row">
+      <div class="col-md-4 col-md-4" *ngFor="let download of downloads">
+        <button class="downloadContent">
+          <div class="">
+            <div>
+              <img [src]="download.downloadImg" width="40px" height="40px" />
+            </div>
+          </div>
+          <h2 class="mt-3">Download</h2>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

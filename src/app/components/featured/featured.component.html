@@ -1,0 +1,54 @@
+<section class="featuredAds">
+  <div class="title animate__animated animate__fadeInDown">
+    <span class="featuredText">Featured<span class="adsText">Ads</span></span>
+  </div>
+  <div class="separateContainer animate__animated animate__fadeInDown">
+    <hr />
+  </div>
+  <p class="desc text-center animate__animated animate__fadeInDown">
+    Lorem ipsum dolor sit amet elit. Cum minima deserunt nihil eaque expedita
+    omnis dignissimos modi<br />
+    deleniti dicta perspiciatis doloribus consequatur autem veniam sit ut
+    maiores animi, adipi.
+  </p>
+  <div class="chevronsContainer">
+    <div class="animate__animated animate__fadeInLeft">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="second animate__animated animate__fadeInRight">
+      <i class="fas fa-chevron-right"></i>
+    </div>
+  </div>
+  <div class="container">
+  <div class="cardsContainer row">
+    <div class="cardAds col-md-6 col-sm-12" *ngFor="let advertis of Advirtesments">
+      <div
+        class="card animate__animated animate__fadeInUp"
+        style="width: 18rem"
+      >
+        <img
+          [src]="advertis.advirtisImg"
+          class="card-img-top"
+          alt="advirtisImg"
+        />
+        <div class="card-body">
+          <h2 class="card-title">{{advertis.title}}</h2>
+
+          <div class="timeWithCountry">
+            <div>
+              <i class="fas fa-map-marker-alt"></i><span>{{advertis.city}}</span>
+            </div>
+            <div><i class="far fa-clock"></i><span>{{advertis.time}}</span></div>
+          </div>
+          <div class="separatedSalary"><hr style="height: 0.9px" /></div>
+          <span class="salary">{{advertis.salary}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+  <!-- <h1>This Is value{{showValue }}</h1>  -->
+
+</section>
+

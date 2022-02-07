@@ -1,0 +1,21 @@
+.header {
+  padding-bottom: 40px;
+  background: url("../../../../assets/family.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 91vh;
+  width: 100%;
+}
+.text-white {
+  margin-top: 70px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Carattere", cursive;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

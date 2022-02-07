@@ -1,0 +1,62 @@
+<mat-toolbar color="primary">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+    (click)="sideNav.open()"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <button
+    mat-button
+    routerLink=""
+    routerLinkActive="activeLink"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
+    Home
+    <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+  </button>
+  <button mat-button routerLink="about" routerLinkActive="activeLink">
+    About
+    <mat-icon aria-hidden="false" aria-label="Example people_alt icon"
+      >people_alt</mat-icon
+    >
+  </button>
+  <button mat-button routerLink="contactus" routerLinkActive="activeLink">
+    ContactUs
+    <mat-icon aria-hidden="false" aria-label="Example contact_phone icon"
+      >contact_phone</mat-icon
+    >
+  </button>
+
+  <span class="example-spacer"></span>
+  <!-- <button mat-button class="postBtn">Post And Ad</button>
+
+      <button mat-button class="registerBtn">Register</button> -->
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="over" #sideNav>
+    <div (click)="sideNav.close()" class="canelContainer">
+      <i class="fas fa-times-circle fa-2x"></i>
+    </div>
+
+    <div class="linkContainer" routerLink="">
+      <i class="fas fa-home fa-2x"></i>
+      <span class="space">Home</span>
+    </div>
+    <div class="linkContainer" routerLink="about">
+      <i class="far fa-users fa-2x"></i>
+      <span class="space">About</span>
+    </div>
+    <div class="linkContainer" routerLink="contactus">
+      <i class="fas fa-id-card-alt fa-2x"></i>
+      <span class="space">ContactUs</span>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- ///////////////////////////////////////////////////////////////////////// -->

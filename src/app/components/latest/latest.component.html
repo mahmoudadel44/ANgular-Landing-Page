@@ -1,0 +1,45 @@
+<section class="latestAds mt-4">
+  <div class="title animate__animated animate__fadeInDown">
+    <span class="featuredText">Latest<span class="adsText">Ads</span></span>
+  </div>
+  <div class="separateContainer animate__animated animate__fadeInDown">
+    <hr />
+  </div>
+  <p class="desc text-center animate__animated animate__fadeInDown">
+    Lorem ipsum dolor sit amet elit. Cum minima deserunt nihil eaque expedita
+    omnis dignissimos modi<br />
+    deleniti dicta perspiciatis doloribus consequatur autem veniam sit ut
+    maiores animi, adipi.
+  </p>
+
+    <div class="container">
+  <div class="cardsContainer row">
+    <div class="cardLatest col-md-6 col-sm-12" *ngFor="let ads of latestAds">
+      <div
+        class="card animate__animated animate__fadeInUp mt-4"
+        style="width: 18rem"
+      >
+        <img
+          [src]="ads.latestimg"
+          class="card-img-top"
+          alt="advirtisImg"
+        />
+        <div class="card-body">
+          <h2 class="card-title">{{ads.title}}</h2>
+
+          <div class="timeWithCountry">
+            <div>
+              <i class="fas fa-map-marker-alt"></i><span>{{ads.city}}</span>
+            </div>
+            <div><i class="far fa-clock"></i><span>{{ads.time}}</span></div>
+          </div>
+          <div class="separatedSalary"><hr style="height: 0.9px" /></div>
+          <span class="salary">{{ads.salary}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <button class="viewAll my-4">View All Latest Ads</button>
+</section>

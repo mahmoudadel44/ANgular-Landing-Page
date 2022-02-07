@@ -1,0 +1,87 @@
+.latestAds {
+  background-color: #f6f6f6;
+  height: auto;
+  flex-direction: column;
+}
+.latestAds .title {
+  font-size: 42px;
+  padding-top: 40px;
+  text-align: center;
+}
+.latestAds .title .featuredText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.latestAds .title .featuredText .adsText {
+  color: #1e90ff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.latestAds .separateContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 85px;
+  height: 2px;
+  color: #1e90ff;
+  background: #1e90ff;
+  margin: auto;
+  margin-top: 30px;
+}
+.latestAds .desc {
+  margin: 25px 150px;
+  font-size: 17px;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+}
+.cardsContainer .cardLatest {
+  width: calc(1200px / 4);
+  margin-bottom: 30px;
+  margin: 5px 9px;
+}
+.cardsContainer .cardLatest:hover {
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.card {
+  border: 0;
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+.latestAds .card-title {
+  color: #1e90ff;
+  font-weight: bold;
+}
+.latestAds .timeWithCountry {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  color: #ccc;
+}
+.latestAds .timeWithCountry span {
+  margin-left: 5px;
+}
+.latestAds .card .salary {
+  color: #444444;
+  font-size: 24px;
+  font-weight: bold;
+}
+.latestAds .viewAll {
+  padding: 12px 32px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: #1e90ff;
+  border: none;
+  color: #fff;
+  margin: auto;
+  display: flex;
+}
+.latestAds .viewAll:hover {
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.06);
+}

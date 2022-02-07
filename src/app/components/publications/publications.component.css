@@ -1,0 +1,35 @@
+.publications {
+  background-color: #fff;
+  height: auto;
+}
+.publications .publicationCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.publications .publicationCard:hover {
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.publications .publicationImgContainer {
+  width: 100px;
+  height: 100px;
+  background: #777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.publications .publicationImgContainer i {
+  color: #fff;
+}
+.publications .adsTitle{
+  font-size: 24px;
+  color: #1F90FF;
+  font-weight: bold;
+}
+.publications .adsDesc{
+  color: #B5B5B5;
+}

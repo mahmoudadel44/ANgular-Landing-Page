@@ -1,0 +1,57 @@
+.catgoriesAds {
+  background-color: #fff;
+  height: auto;
+  flex-direction: column;
+}
+.catgoriesAds .title {
+  font-size: 42px;
+  padding-top: 60px;
+  text-align: center;
+}
+.catgoriesAds .title .featuredText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.catgoriesAds .title .featuredText .adsText {
+  color: #1e90ff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.catgoriesAds .separateContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 85px;
+  height: 2px;
+  color: #1e90ff;
+  background: #1e90ff;
+  margin: auto;
+  margin-top: 30px;
+}
+.catgoriesAds .desc {
+  margin: 25px 150px;
+  font-size: 17px;
+}
+.catgoriesAds .categoryCard:hover {
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.06);
+}
+.categoryImgContainer {
+  display: flex;
+  justify-content: center;
+}
+.catgoriesAds .categoryNameWithNum {
+  display: flex;
+  font-weight: bold;
+  background: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.catgoriesAds .categoryNameWithNum span {
+  color: #8d8c8c;
+  margin-left: 3px;
+}

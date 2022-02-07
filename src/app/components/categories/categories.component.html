@@ -1,0 +1,26 @@
+<section class="catgoriesAds pb-5">
+  <div class="title animate__animated animate__fadeInDown">
+    <span class="featuredText"
+      >Browse<span class="adsText">Categories</span></span
+    >
+  </div>
+  <div class="separateContainer animate__animated animate__fadeInDown">
+    <hr />
+  </div>
+  <p class="desc text-center animate__animated animate__fadeInDown">
+    Lorem ipsum dolor sit amet elit. Cum minima deserunt nihil eaque expedita
+    omnis dignissimos modi<br />
+    deleniti dicta perspiciatis doloribus consequatur autem veniam sit ut
+    maiores animi, adipi.
+  </p>
+  <div class="container">
+    <div class="row mt-5">
+    <div class="col-md-2 col-sm-6 my-4 categoryCard" *ngFor="let category of firstCategories">
+      <div class="categoryImgContainer"><img [src]="category.categoryImg" width="100px" height="100px"/></div>
+      <div class="categoryNameWithNum mt-3">
+        {{ category.CategoryName }}<span>{{ category.categoryNum }}</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>

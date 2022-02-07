@@ -1,0 +1,58 @@
+<section class="header">
+  <div class="container">
+    <div class="row centering-vh">
+      <div class="text-white animate__animated animate__fadeInDown">
+        Welcome to About Page
+      </div>
+<h1>{{"Title" }}</h1>
+<p class="lead"></p>
+      <form>
+        <div class="form-group" style="position: relative">
+          <label for="exampleInputEmail1" class="text-white mb-5 text-right"
+            >User Name</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            #userInput
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter User Name:"
+            style="width: 60%; margin: auto"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="btn btn-primary mt-3"
+          (click)="adduser(userInput)"
+        >
+          Adding User
+        </button>
+            <!-- <button
+          class="btn btn-primary mt-3"
+          (click)="changeLanguage('en')"
+        >
+          En
+        </button>
+            <button
+          class="btn btn-primary mt-3"
+          (click)="changeLanguage('fr')"
+        >
+          Fr
+        </button> -->
+      </form>
+
+      <table class="table">
+        <tbody>
+          <tr *ngFor="let user of usersList; let i = index">
+            <td scope="" class="text-white userStyle" @myAnimate>{{ user }}</td>
+            <div (click)="deleteUser(i)">
+              <i class="fas fa-trash-alt fa-2x" style="color: #dc3545"></i>
+            </div>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,88 @@
+.customers {
+  background-color: #f6f6f6;
+  height: auto;
+  flex-direction: column;
+}
+.customers .title {
+  font-size: 42px;
+  padding-top: 40px;
+  text-align: center;
+}
+.customers .title .featuredText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.customers .title .featuredText .adsText {
+  color: #1e90ff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.customers .separateContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 85px;
+  height: 2px;
+  color: #1e90ff;
+  background: #1e90ff;
+  margin: auto;
+  margin-top: 30px;
+}
+.customers .desc {
+  margin: 25px 150px;
+  font-size: 17px;
+}
+.customerContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #CCC;
+ box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+.customers .customerContent:hover {
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.customers .customerImgContainer img{
+  border-radius:4px;
+}
+.customers .customerCard h3{
+  color: #545454;
+  font-size: 26px;
+  font-weight: bold;
+}
+.customers .customerAddress{
+  font-size: 15px;
+  color: #1F90FF;
+  font-weight: bold;
+}
+.customers .customerDesc{
+  color: #414141;
+  font-style: italic;
+}
+
+
+.customers .chevronsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.customers .chevronsContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(158, 157, 157);
+  width: 32px;
+  height: 32px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.customers .chevronsContainer .second {
+  margin-left: 10px;
+}

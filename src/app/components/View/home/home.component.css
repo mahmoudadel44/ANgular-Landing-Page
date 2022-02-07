@@ -1,0 +1,55 @@
+.header {
+  position: absolute;
+  padding-bottom: 40px;
+  background: url("../../../../assets/family.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 657px;
+  width: 100%;
+}
+.text-white {
+  margin-top: 45px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Carattere", cursive;
+}
+.titleText {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 70px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .titleText {
+    font-size: 30px;
+  }
+}
+
+.header p {
+  color: #fefefe;
+  font-size: 19px;
+}
+@media (max-width: 991px) {
+  .header p {
+    text-align: center;
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+form {
+  width: 65%;
+  margin: 20px auto;
+  color: #fff;
+}
+form label{
+  margin-bottom: 8px;
+  font-size: 16px;
+}

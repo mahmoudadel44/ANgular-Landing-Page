@@ -1,0 +1,109 @@
+/* featured section */
+.featuredAds {
+  background-color: #f6f6f6;
+  height: auto;
+  flex-direction: column;
+}
+.featuredAds .title {
+  font-size: 42px;
+  padding-top: 40px;
+  text-align: center;
+}
+.featuredAds .title .featuredText {
+  text-align: center;
+  font-weight: bold;
+}
+
+.featuredAds .title .featuredText .adsText {
+  color: #1e90ff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.featuredAds .separateContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 85px;
+  height: 2px;
+  color: #1e90ff;
+  background: #1e90ff;
+  margin: auto;
+  margin-top: 30px;
+}
+.featuredAds .desc {
+  margin: 25px 150px;
+  font-size: 17px;
+}
+.featuredAds .chevronsContainer {
+  display: flex;
+  justify-content: center;
+}
+.featuredAds .chevronsContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(158, 157, 157);
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.featuredAds .chevronsContainer .second {
+  margin-left: 10px;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+@media (max-width: 656px) {
+  .cardsContainer {
+    flex-direction: column;
+  }
+  .cardAds {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .cardAds {
+    margin-top: 20px;
+  }
+}
+.cardsContainer .cardAds {
+  width: calc(1200px / 4);
+}
+.cardAds {
+  margin: 5px 9px;
+}
+.card{
+  border:0;
+   box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+
+}
+.cardAds:hover{
+  transition: 0.7s all ease-in-out;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.featuredAds .card-title {
+  color: #1e90ff;
+  font-weight: bold;
+}
+.featuredAds .timeWithCountry {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  color: #ccc;
+}
+.featuredAds .timeWithCountry span {
+  margin-left: 5px;
+}
+.featuredAds .card .salary{
+  color: #444444;
+  font-size: 24px;
+  font-weight: bold;
+}
+/*/////////////////////////////////////////////////////*/

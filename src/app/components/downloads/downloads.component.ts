@@ -1,0 +1,23 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-downloads',
+  templateUrl: './downloads.component.html',
+  styleUrls: ['./downloads.component.css'],
+})
+export class DownloadsComponent implements OnInit {
+  downloads: any = [
+    {
+      downloadImg: '../../../assets/android.png',
+    },
+    {
+      downloadImg: '../../../assets/apple.png',
+    },
+    {
+      downloadImg: '../../../assets/windows.png',
+    },
+  ];
+  constructor() {}
+
+  ngOnInit(): void {}
+}
